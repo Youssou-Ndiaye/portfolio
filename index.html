@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youssou's webpage</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="Nav-bar">
+        <ul class="nav-menu">
+          <li class="nav-item" onclick="move()">
+            <a href="#home" class="info nav-link">about me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skilled" class="nav-link">skills and CV</a>
+          </li>
+          <li class="nav-item">
+            <a href="#proj" class="nav-link">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:youssou467@icloud.com">
+              contact me</a
+            >
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section" id="home">
+      <img src="img/Youssou1.jpeg" class="hero-img" />
+      <p class="me hidden">
+        Hei, first of all, thanks for taking the time to look through my
+        page.<br />
+        I am Youssou, a 21 year old model and junior web developer. Although
+        being <br />
+        born in Senegal,i was raised and mostly educated in Italy. Upon my
+        <br />
+        arrival to England 8 years ago, i quickly wanted to learn the english
+        <br />
+        language and make the most out of what my parents sacrificed to get me
+        <br />
+        the opportunities this country has to offer. in that process, i found
+        <br />
+        myself falling in love with the world of teach and i cannot wait to see
+        where it takes me!
+      </p>
+      <h1>
+        Youssou Ndiaye <br />
+        junior web developer
+      </h1>
+    </section>
+
+    <section class="skills-cv">
+      <h1 id="skilled">Skills and CV</h1>
+      <a href="#home">
+        <button
+          style="
+            padding: 5px 20px;
+            border-radius: 999px;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: solid 2px aquamarine;
+            background-color: black;
+            color: aquamarine;
+          "
+        >
+          back up
+        </button>
+      </a>
+
+      <div class="skill-bar">
+        <div>
+          <img src="/img/mysql.png" alt="" />
+          <p>Mysql</p>
+        </div>
+        <div>
+          <img src="/img/JavaScript-logo.png" alt="" />
+          <p>Javascript</p>
+        </div>
+        <div>
+          <img src="/css3-logo-png-transparent.png" alt="" />
+          <p>CSS</p>
+        </div>
+        <div>
+          <img src="/html3.png" alt="" />
+          <p>HTML</p>
+        </div>
+      </div>
+      <p class="download-p">Donwload CV</p>
+      <div class="cv-container">
+        <img src="/img/CV.jpeg" class="cv" />
+        <a href="Youssou_Ndiaye_CV-5.pdf" download>
+          <div class="cv-overlay">
+            <p>Download my CV</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h1 id="proj">My Projects</h1>
+      <a href="#home">
+        <button
+          style="
+            padding: 5px 20px;
+            border-radius: 999px;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: solid 2px aquamarine;
+            background-color: black;
+            color: aquamarine;
+          "
+        >
+          back up
+        </button>
+      </a>
+      <div class="projects-container">
+        <a href="/islam.html" target="_blank">
+          <div class="img-container">
+            <img src="/img/islam.jpg" class="project-img" />
+            <div class="overlay-project">
+              <p>Random islamic quotes generator</p>
+            </div>
+          </div>
+        </a>
+        <a href="/to-do.html" target="_blank">
+          <div class="img-container">
+            <img src="/img/to-do2.jpg" class="project-img" />
+            <div class="overlay-project">
+              <p>To-do list</p>
+            </div>
+          </div>
+        </a>
+        <a href="/RPS-comp.html" target="_blank">
+          <div class="img-container">
+            <img src="/img/rps2.jpg" class="project-img" />
+            <div class="overlay-project">
+              <p>Rock-Paper-scissors game</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
