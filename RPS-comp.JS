@@ -114,8 +114,8 @@ function choices(choice) {
 
   function moves() {
     const moved = document.querySelector(".moves");
-    moved.innerHTML = `you <img src="/RPS-images/${choice}-emoji.png" class="move-icon" />
-    <img src="rps-images/${CompMove}-emoji.png" class="move-icon" />
+    moved.innerHTML = `you <img src="RPS-images/${choice}-emoji.png" class="move-icon" />
+    <img src="RPS-images/${CompMove}-emoji.png" class="move-icon" />
     youssou`;
   }
 
